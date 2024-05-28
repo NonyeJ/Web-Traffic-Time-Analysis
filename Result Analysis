@@ -39,7 +39,7 @@ Visuals: The Prophet model shows a clear seasonal pattern and a downtrend, which
 Trend Analysis: The decreasing trend line suggests that whatever metric forecasting is on a downward trajectory over the periods analyzed. Weekly seasonality shows that certain days (like mid-week) could have higher values than others (like weekends).
 
 General Observations
-Complexity of Data: Your data shows clear periodic peaks which all models struggle with to some extent. This could be indicative of underlying phenomena like seasonal sales, user activity spikes, or similar events.
+Complexity of Data: The data shows clear periodic peaks which all models struggle with to some extent. This could be indicative of underlying phenomena like seasonal sales, user activity spikes, or similar events.
 Model Fit: ARIMA and LSTM show reasonable fit but have their limitations, especially with peak predictions. LSTM seems to handle general trends better, while ARIMA is sensitive to peak anomalies. XGBoost shows overfitting, which could be mitigated by tuning its parameters or using regularization techniques.
 Model Selection: Depending on the ultimate goal of the analysis (e.g., understanding underlying trends vs. making the most accurate predictions possible), different models might be preferable. LSTM offers a good balance for complex patterns and non-linear relationships typical in many practical scenarios.
 
